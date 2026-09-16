@@ -6,21 +6,27 @@ import Image from "next/image"
 const services = [
   {
     number: "01",
-    title: "Chef Pessoal",
-    description: "Serviço contínuo de culinária personalizada para famílias que valorizam a excelência gastronômica no dia a dia.",
-    features: ["Menu semanal personalizado", "Ingredientes premium", "Dietas especiais"],
+    category: "EXPERIÊNCIAS GASTRONÔMICAS",
+    title: "Eventos & celebrações",
+    description: "Casamentos, jantares, encontros corporativos e experiências gastronômicas desenvolvidas sob medida.",
   },
   {
     number: "02",
-    title: "Jantares Privativos",
-    description: "Experiências gastronômicas exclusivas na sua residência, perfeitas para ocasiões especiais e entretenimento.",
-    features: ["Até 24 convidados", "Equipe completa", "Harmonização de vinhos"],
+    category: "CRIAÇÃO & DESENVOLVIMENTO",
+    title: "Menus, produtos & conceitos",
+    description: "Desenvolvimento de cardápios, produtos alimentícios e conceitos gastronômicos para marcas, restaurantes e produtores.",
   },
   {
     number: "03",
-    title: "Consultoria",
-    description: "Desenvolvimento de conceitos gastronômicos, menus e treinamento para restaurantes e marcas de alimentação.",
-    features: ["Criação de cardápios", "Treinamento de equipes", "Gestão de custos"],
+    category: "CONSULTORIA GASTRONÔMICA",
+    title: "Estratégia + cozinha + operação",
+    description: "Da ideia ao prato: conceito, desenvolvimento, fichas técnicas, custos, testes, treinamento e implantação.",
+  },
+  {
+    number: "04",
+    category: "EXPERIÊNCIAS PRIVADAS",
+    title: "Jantares autorais",
+    description: "Menus exclusivos para eventos, criados de acordo com ocasião, território, estação e perfil dos convidados.",
   },
 ]
 
@@ -85,22 +91,15 @@ export function ServicesSection() {
                     {service.number}
                   </span>
                   <div className="flex-1">
+                    <p className="font-[var(--font-montserrat)] text-xs tracking-[0.3em] text-accent mb-4">
+                      {service.category}
+                    </p>
                     <h3 className="text-3xl md:text-4xl font-light text-foreground mb-4 group-hover:text-accent transition-colors duration-500">
                       {service.title}
                     </h3>
-                    <p className="text-muted-foreground leading-relaxed mb-6 max-w-xl">
+                    <p className="text-muted-foreground leading-relaxed max-w-xl">
                       {service.description}
                     </p>
-                    <div className="flex flex-wrap gap-4">
-                      {service.features.map((feature, i) => (
-                        <span
-                          key={i}
-                          className="font-[var(--font-montserrat)] text-xs tracking-wider text-muted-foreground/80 border border-border px-4 py-2"
-                        >
-                          {feature}
-                        </span>
-                      ))}
-                    </div>
                   </div>
                   <motion.div
                     className="hidden md:block pt-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500"
