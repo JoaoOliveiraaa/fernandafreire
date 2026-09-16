@@ -38,7 +38,7 @@ export function AboutSection() {
               transition={{ duration: 0.6 }}
               className="font-[var(--font-montserrat)] text-xs tracking-[0.4em] text-accent mb-6"
             >
-              SOBRE FERNANDA
+              SOBRE A CHEF
             </motion.p>
 
             <motion.h2
@@ -60,28 +60,17 @@ export function AboutSection() {
               className="space-y-6 text-muted-foreground leading-relaxed"
             >
               <p>
-                Sou Fernanda Freire, chef e consultora gastronômica, cearense de origem,
-                encontro diferentes territórios brasileiros através da cozinha.
+                Há mais de 15 anos, dedico minha vida à arte de transformar ingredientes em experiências memoráveis. 
+                Minha filosofia nasce da conexão profunda com a terra brasileira e suas infinitas possibilidades culinárias.
               </p>
               <p>
-                A curiosidade pelos ingredientes sazonais e locais e o desejo de transformar
-                conhecimento em experiências à mesa. Carrego comigo as referências do Ceará e do
-                Nordeste — seus sabores, ingredientes, memórias e formas de cozinhar — e gosto de
-                levá-las para uma cozinha contemporânea, criando diálogos entre diferentes
-                territórios brasileiros.
+                Formada pelo Institut Paul Bocuse em Lyon e com passagens por restaurantes estrelados em Paris, 
+                Tóquio e São Paulo, trago em cada prato uma fusão única entre técnicas clássicas e a riqueza dos 
+                sabores da nossa terra.
               </p>
               <p>
-                Trabalho com uma cozinha autoral guiada pela sazonalidade, pelo aproveitamento
-                dos ingredientes e pela busca de equilíbrio entre sabor, técnica e identidade.
-              </p>
-              <p>
-                Ao longo da minha trajetória, desenvolvi menus para eventos em geral, casamentos,
-                experiências privadas e negócios de alimentação, além de projetos de desenvolvimento
-                de produtos e consultoria gastronômica para restaurantes.
-              </p>
-              <p>
-                Mais do que executar receitas, gosto de construir conceitos: entender uma história,
-                um ingrediente, um território, uma marca ou uma ocasião e transformar tudo isso em comida.
+                Cada jantar que crio é uma narrativa gastronômica — uma celebração da sazonalidade, 
+                da memória afetiva e do prazer de compartilhar uma mesa.
               </p>
             </motion.div>
 

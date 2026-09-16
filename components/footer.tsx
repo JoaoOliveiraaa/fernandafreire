@@ -19,12 +19,13 @@ export function Footer() {
                 className="flex items-center gap-4 mb-6"
               >
                 <Image
-                  src="/images/FERNANDAFREIRE_LOGO_BRANCO.png"
+                  src="/images/logo.jpg"
                   alt="Fernanda Freire"
-                  width={684}
-                  height={387}
-                  className="h-16 md:h-20 w-auto"
+                  width={50}
+                  height={50}
+                  className="rounded-full invert"
                 />
+                <span className="text-2xl font-light">Fernanda Freire</span>
               </motion.div>
               <motion.p
                 initial={{ opacity: 0, y: 20 }}
@@ -129,15 +130,15 @@ export function Footer() {
                 CONTATO
               </h4>
               <ul className="space-y-4 text-primary-foreground/80">
-                <li>São Carlos, SP - Brasil</li>
+                <li>São Paulo, Brasil</li>
                 <li>
-                  <a href="tel:+5516997200624" className="hover:text-primary-foreground transition-colors duration-300">
-                    +55 16 99720-0624
+                  <a href="tel:+5511999999999" className="hover:text-primary-foreground transition-colors duration-300">
+                    +55 11 99999-9999
                   </a>
                 </li>
                 <li>
-                  <a href="mailto:fernandafreirecozinha@gmail.com" className="hover:text-primary-foreground transition-colors duration-300">
-                    fernandafreirecozinha@gmail.com
+                  <a href="mailto:contato@fernandafreire.com.br" className="hover:text-primary-foreground transition-colors duration-300">
+                    contato@fernandafreire.com.br
                   </a>
                 </li>
               </ul>
@@ -151,16 +152,10 @@ export function Footer() {
         <div className="px-6 md:px-12 lg:px-20 py-6">
           <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="font-[var(--font-montserrat)] text-xs tracking-wider text-primary-foreground/50">
-              © 2026 Fernanda Freire. Todos os direitos reservados.
+              © 2024 Fernanda Freire. Todos os direitos reservados.
             </p>
             <p className="font-[var(--font-montserrat)] text-xs tracking-wider text-primary-foreground/50">
-              Desenvolvido por{" "}
-              <a
-                href="https://vexisoficial.com"
-                className="hover:text-primary-foreground transition-colors duration-300"
-              >
-                Vexis
-              </a>
+              Design com carinho para experiências únicas
             </p>
           </div>
         </div>

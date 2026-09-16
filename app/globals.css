@@ -154,7 +154,6 @@
   }
   html {
     scroll-behavior: smooth;
-    font-size: 17px; /* ponytail: ~6% up from 16px default, scales all rem-based type/spacing uniformly */
   }
 }
 

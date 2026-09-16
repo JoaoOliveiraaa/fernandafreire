@@ -39,12 +39,11 @@ export function HeroSection() {
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <Image
-              src="/images/FERNANDAFREIRE_LOGO_BRANCO.png"
+              src="/images/logo.jpg"
               alt="Fernanda Freire"
-              width={684}
-              height={387}
-              priority
-              className="h-14 md:h-20 w-auto"
+              width={60}
+              height={60}
+              className="rounded-full invert"
             />
           </motion.div>
           
@@ -127,16 +126,16 @@ export function HeroSection() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.3 }}
-          className="font-[var(--font-montserrat)] text-[10px] md:text-xs tracking-[0.3em] text-primary-foreground/80 mb-6 leading-relaxed max-w-2xl mx-auto"
+          className="font-[var(--font-montserrat)] text-xs md:text-sm tracking-[0.4em] text-primary-foreground/80 mb-6"
         >
-          CHEF GASTRONOMIA BRASILEIRA · CONSULTORA DE CARDÁPIOS PARA RESTAURANTES
+          CHEF PESSOAL · SÃO PAULO
         </motion.p>
-
+        
         <motion.h1
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.5 }}
-          className="text-5xl md:text-7xl lg:text-8xl font-light text-primary-foreground tracking-tight leading-[0.95] mb-5"
+          className="text-5xl md:text-7xl lg:text-8xl font-light text-primary-foreground tracking-tight leading-[0.95] mb-8"
         >
           <span className="block">Fernanda</span>
           <span className="block italic font-normal">Freire</span>
@@ -145,30 +144,11 @@ export function HeroSection() {
         <motion.p
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.7 }}
-          className="font-[var(--font-montserrat)] text-sm md:text-base tracking-[0.25em] text-primary-foreground/90 mb-8"
+          transition={{ duration: 0.8, delay: 0.8 }}
+          className="text-lg md:text-xl text-primary-foreground/85 font-light max-w-2xl mx-auto leading-relaxed"
         >
-          CHEF & CONSULTORA GASTRONÔMICA
-        </motion.p>
-
-        <motion.p
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.9 }}
-          className="text-xl md:text-2xl text-primary-foreground/90 font-light italic max-w-2xl mx-auto leading-relaxed mb-6"
-        >
-          Gastronomia autoral entre território, técnica e memória.
-        </motion.p>
-
-        <motion.p
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 1 }}
-          className="text-sm md:text-base text-primary-foreground/75 font-light max-w-xl mx-auto leading-relaxed"
-        >
-          Criação de experiências gastronômicas, menus e produtos para eventos,
-          marcas e projetos que valorizam ingredientes, identidade e uma cozinha
-          feita com intenção.
+          Experiências gastronômicas íntimas celebrando a <br className="hidden md:block" />
+          sazonalidade e a tradição culinária brasileira
         </motion.p>
 
         <motion.div
