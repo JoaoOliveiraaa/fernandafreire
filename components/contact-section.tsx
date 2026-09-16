@@ -54,10 +54,10 @@ export function ContactSection() {
                   EMAIL
                 </p>
                 <a
-                  href="mailto:contato@fernandafreire.com.br"
+                  href="mailto:fernandafreirecozinha@gmail.com"
                   className="text-xl text-foreground hover:text-accent transition-colors duration-300"
                 >
-                  contato@fernandafreire.com.br
+                  fernandafreirecozinha@gmail.com
                 </a>
               </div>
               <div>
@@ -65,10 +65,10 @@ export function ContactSection() {
                   TELEFONE
                 </p>
                 <a
-                  href="tel:+5511999999999"
+                  href="tel:+5516997200624"
                   className="text-xl text-foreground hover:text-accent transition-colors duration-300"
                 >
-                  +55 11 99999-9999
+                  +55 16 99720-0624
                 </a>
               </div>
               <div>
@@ -76,7 +76,7 @@ export function ContactSection() {
                   LOCALIZAÇÃO
                 </p>
                 <p className="text-xl text-foreground">
-                  São Paulo, Brasil
+                  São Carlos, SP - Brasil
                 </p>
               </div>
             </motion.div>
