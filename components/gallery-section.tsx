@@ -2,14 +2,15 @@
 
 import { motion } from "framer-motion"
 import Image from "next/image"
+import Link from "next/link"
 import { useState } from "react"
 
 const galleryImages = [
-  { src: "/images/hero-dish.jpg", alt: "Prato sofisticado", span: "col-span-2 row-span-2" },
-  { src: "/images/ingredients.jpg", alt: "Ingredientes frescos", span: "col-span-1 row-span-1" },
-  { src: "/images/dessert.jpg", alt: "Sobremesa artística", span: "col-span-1 row-span-1" },
-  { src: "/images/dining-experience.jpg", alt: "Experiência gastronômica", span: "col-span-1 row-span-2" },
-  { src: "/images/hands-cooking.jpg", alt: "Preparação artesanal", span: "col-span-2 row-span-1" },
+  { src: "/images/_MG_7684.JPG", alt: "Pratos de salada autoral com presunto cru e manga", span: "col-span-2 row-span-2" },
+  { src: "/images/_MG_0238.JPG", alt: "Ingredientes brasileiros em tigelas de cerâmica", span: "col-span-1 row-span-1" },
+  { src: "/images/_MG_2564.JPG", alt: "Bowl de frutas", span: "col-span-1 row-span-1" },
+  { src: "/images/_MG_3300.jpg", alt: "Fernanda Freire em seu jardim", span: "col-span-1 row-span-2" },
+  { src: "/images/_MG_1114.JPG", alt: "Sanduíche prensado da cozinha autoral", span: "col-span-2 row-span-1" },
 ]
 
 export function GallerySection() {
@@ -82,13 +83,39 @@ export function GallerySection() {
           ))}
         </div>
 
+        {/* CTA para a galeria completa */}
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.3 }}
+          className="text-center mt-20 md:mt-24 max-w-2xl mx-auto"
+        >
+          <p className="text-2xl md:text-3xl font-light text-foreground leading-snug text-balance mb-8">
+            Cada prato guarda uma história — e há muitas para descobrir.
+          </p>
+          <p className="text-muted-foreground leading-relaxed mb-10">
+            Explore o acervo completo com as fotografias da cozinha, dos ingredientes,
+            dos eventos e das experiências da Fernanda.
+          </p>
+          <Link
+            href="/galerialink"
+            className="inline-flex items-center gap-3 font-[var(--font-montserrat)] text-xs tracking-[0.3em] bg-primary text-primary-foreground px-10 py-4 hover:bg-accent transition-colors duration-500"
+          >
+            VER GALERIA COMPLETA
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+          </Link>
+        </motion.div>
+
         {/* Instagram CTA */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.4 }}
-          className="text-center mt-16"
+          className="text-center mt-12"
         >
           <a
             href="https://instagram.com"

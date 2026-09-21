@@ -38,9 +38,9 @@ export function ConsultingSection() {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="text-primary-foreground/80 leading-relaxed mb-10 max-w-lg"
             >
-              Trabalho com restaurantes e marcas de alimentação para criar experiências 
-              gastronômicas memoráveis. Da concepção do cardápio à execução operacional, 
-              ofereço uma visão completa para elevar seu negócio ao próximo nível.
+              Trabalho com restaurantes e marcas de alimentação no desenvolvimento de
+              conceitos e cardápios com identidade. Da concepção do cardápio à execução
+              operacional, ofereço uma visão completa para elevar seu negócio ao próximo nível.
             </motion.p>
 
             <motion.div
@@ -48,20 +48,14 @@ export function ConsultingSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.3 }}
-              className="grid grid-cols-2 gap-8 mb-12"
+              className="mb-12 border-t border-primary-foreground/15 pt-8"
             >
-              <div>
-                <p className="text-4xl font-light mb-2">15+</p>
-                <p className="font-[var(--font-montserrat)] text-xs tracking-wider text-primary-foreground/60">
-                  ANOS DE EXPERIÊNCIA
-                </p>
-              </div>
-              <div>
-                <p className="text-4xl font-light mb-2">50+</p>
-                <p className="font-[var(--font-montserrat)] text-xs tracking-wider text-primary-foreground/60">
-                  PROJETOS REALIZADOS
-                </p>
-              </div>
+              <p className="font-[var(--font-montserrat)] text-xs tracking-[0.3em] text-primary-foreground/50 mb-4">
+                TRAJETÓRIA
+              </p>
+              <p className="text-2xl md:text-3xl font-light leading-snug text-balance">
+                Uma trajetória entre <span className="italic">cozinha, desenvolvimento e consultoria</span>.
+              </p>
             </motion.div>
 
             <motion.a
@@ -86,8 +80,8 @@ export function ConsultingSection() {
           >
             <div className="relative aspect-[4/5] overflow-hidden">
               <Image
-                src="/images/consulting.jpg"
-                alt="Consultoria gastronômica"
+                src="/images/_MG_0341.JPG"
+                alt="Prato autoral desenvolvido para cardápio de restaurante"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"

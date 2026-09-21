@@ -16,8 +16,8 @@ export function PurposeSection() {
           className="relative min-h-[60vh] lg:min-h-[85vh] order-1"
         >
           <Image
-            src="/images/ingredients.jpg"
-            alt="Ingredientes frescos e sazonais"
+            src="/images/_MG_2800.JPG"
+            alt="Ingredientes e temperos brasileiros"
             fill
             className="object-cover"
             sizes="(max-width: 1024px) 100vw, 50vw"

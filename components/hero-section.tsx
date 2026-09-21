@@ -9,25 +9,25 @@ export function HeroSection() {
 
   const menuItems = [
     { href: "#sobre", label: "SOBRE" },
-    { href: "#experiencias", label: "EXPERIÊNCIAS" },
+    { href: "#projetos", label: "PROJETOS" },
     { href: "#servicos", label: "SERVIÇOS" },
     { href: "#galeria", label: "GALERIA" },
     { href: "#contato", label: "CONTATO" },
   ]
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex items-end justify-center overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="/images/hero-dish.jpg"
-          alt="Prato sofisticado"
+          src="/images/herofernanda.jpg"
+          alt="Fernanda Freire em seu jardim, com pratos de sua cozinha autoral"
           fill
           priority
-          className="object-cover"
+          className="object-cover object-[50%_25%]"
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-primary/40" />
+        <div className="absolute inset-0 bg-gradient-to-t from-primary/85 via-primary/45 to-primary/20" />
       </div>
 
       {/* Navigation */}
@@ -44,7 +44,7 @@ export function HeroSection() {
               width={684}
               height={387}
               priority
-              className="h-14 md:h-20 w-auto"
+              className="h-20 md:h-28 w-auto"
             />
           </motion.div>
           
@@ -122,7 +122,7 @@ export function HeroSection() {
       </AnimatePresence>
 
       {/* Hero Content */}
-      <div className="relative z-10 text-center px-6 max-w-5xl mx-auto">
+      <div className="relative z-10 text-center px-6 max-w-5xl mx-auto pb-20 md:pb-28">
         <motion.p
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -157,7 +157,7 @@ export function HeroSection() {
           transition={{ duration: 0.8, delay: 0.9 }}
           className="text-xl md:text-2xl text-primary-foreground/90 font-light italic max-w-2xl mx-auto leading-relaxed mb-6"
         >
-          Gastronomia autoral entre território, técnica e memória.
+          Cozinha autoral brasileira para experiências, eventos e projetos de alimentação.
         </motion.p>
 
         <motion.p
@@ -185,33 +185,6 @@ export function HeroSection() {
           </a>
         </motion.div>
       </div>
-
-      {/* Scroll Indicator */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1, delay: 1.5 }}
-        className="absolute bottom-12 left-1/2 -translate-x-1/2"
-      >
-        <motion.div
-          animate={{ y: [0, 10, 0] }}
-          transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-          className="flex flex-col items-center gap-3 text-primary-foreground/60"
-        >
-          <span className="font-[var(--font-montserrat)] text-[10px] tracking-[0.3em] rotate-90 origin-center">SCROLL</span>
-          <svg className="w-4 h-8" viewBox="0 0 16 32" fill="none" stroke="currentColor" strokeWidth="1">
-            <rect x="1" y="1" width="14" height="24" rx="7" />
-            <motion.circle
-              cx="8"
-              cy="8"
-              r="2"
-              fill="currentColor"
-              animate={{ cy: [8, 16, 8] }}
-              transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-            />
-          </svg>
-        </motion.div>
-      </motion.div>
     </section>
   )
 }

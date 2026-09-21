@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     url: siteUrl,
     images: [
       {
-        url: '/images/hero-dish.jpg',
+        url: '/images/herofernanda.jpg',
         width: 1200,
         height: 630,
         alt: 'Fernanda Freire — gastronomia autoral',
@@ -70,7 +70,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title,
     description,
-    images: ['/images/hero-dish.jpg'],
+    images: ['/images/herofernanda.jpg'],
   },
   robots: {
     index: true,
@@ -95,7 +95,7 @@ const jsonLd = {
   jobTitle: 'Chef & Consultora Gastronômica',
   description,
   url: siteUrl,
-  image: `${siteUrl}/images/chef-portrait.jpg`,
+  image: `${siteUrl}/images/herofernanda.jpg`,
   email: 'fernandafreirecozinha@gmail.com',
   telephone: '+5516997200624',
   nationality: 'Brazilian',

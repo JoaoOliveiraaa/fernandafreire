@@ -23,7 +23,7 @@ export function Footer() {
                   alt="Fernanda Freire"
                   width={684}
                   height={387}
-                  className="h-16 md:h-20 w-auto"
+                  className="h-24 md:h-32 w-auto"
                 />
               </motion.div>
               <motion.p
@@ -33,8 +33,8 @@ export function Footer() {
                 transition={{ duration: 0.6, delay: 0.1 }}
                 className="text-primary-foreground/70 leading-relaxed max-w-sm mb-8"
               >
-                Criando experiências gastronômicas memoráveis que celebram 
-                a sazonalidade e a tradição culinária brasileira.
+                Cozinha autoral brasileira para experiências, eventos e
+                projetos de alimentação.
               </motion.p>
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -96,8 +96,8 @@ export function Footer() {
                   </a>
                 </li>
                 <li>
-                  <a href="#experiencias" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors duration-300">
-                    Experiências
+                  <a href="#projetos" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors duration-300">
+                    Projetos
                   </a>
                 </li>
                 <li>

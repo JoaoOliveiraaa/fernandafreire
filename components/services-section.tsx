@@ -66,10 +66,10 @@ export function ServicesSection() {
               className="relative aspect-[4/3] overflow-hidden mt-12 hidden lg:block"
             >
               <Image
-                src="/images/hands-cooking.jpg"
-                alt="Preparação artesanal"
+                src="/images/IMG_20260915_104642_450.jpg"
+                alt="Fernanda Freire, chef e consultora gastronômica"
                 fill
-                className="object-cover"
+                className="object-cover object-top"
                 sizes="400px"
               />
             </motion.div>
