@@ -1,6 +1,12 @@
 // Fonte única dos projetos/áreas de atuação. Cada projeto tem capa e galeria
-// própria, com fotografias reais da Fernanda (public/images) agrupadas por tema
-// — nunca misturadas entre projetos.
+// própria, com fotografias reais da Fernanda agrupadas por tema — nunca
+// misturadas entre projetos.
+//
+// Contexto importante (curadoria):
+// - As fotos de "Jantar Sazonal" vêm do próprio projeto (public/images/projetos/js-*).
+// - Trabalhos de consultoria são de CLIENTES e vivem só no case de consultoria:
+//   pratos em prato azul (Asmana) + bastidores de cozinha (2Manas, em cases/).
+//   Não reutilizar essas imagens como portfólio geral da Fernanda.
 // ponytail: para trocar/ampliar uma galeria, basta editar os arrays abaixo.
 
 export interface Project {
@@ -10,6 +16,7 @@ export interface Project {
   description: string
   coverImage: string
   images: { src: string; alt: string }[]
+  instagram?: string
 }
 
 const img = (src: string, alt: string) => ({ src, alt })
@@ -21,16 +28,17 @@ export const projects: Project[] = [
     title: "Jantar Sazonal — Casa Serena Terra",
     description:
       "Experiência gastronômica mensal dedicada à cozinha brasileira e à sazonalidade.",
-    coverImage: "/images/_MG_3157.JPG",
+    coverImage: "/images/projetos/js-moqueca.jpg",
+    instagram: "https://www.instagram.com/jantar_sazonal/",
     images: [
-      img("/images/_MG_3157.JPG", "Prato sazonal com carne, cenouras assadas e folhas"),
-      img("/images/_MG_0459.JPG", "Salada autoral com tomate, folhas e banana-da-terra"),
-      img("/images/_MG_0550.JPG", "Peito de frango grelhado com salada de folhas"),
-      img("/images/_MG_3178.JPG", "Galette servida com cenouras assadas"),
-      img("/images/_MG_3225.JPG", "Frango com cenouras assadas e ervas"),
-      img("/images/_MG_7684.JPG", "Pratos de salada com presunto cru e manga"),
-      img("/images/_MG_1344.JPG", "Galette de trigo com recheio e salada"),
-      img("/images/_MG_0581.JPG", "Composição de pratos da cozinha sazonal"),
+      img("/images/projetos/js-salada-flor.jpg", "Salada autoral com mousse e flor comestível em prato de pedra"),
+      img("/images/projetos/js-moqueca.jpg", "Moqueca de camarão com legumes e flores comestíveis"),
+      img("/images/projetos/js-banana-carne.jpg", "Banana-da-terra assada com ragu e farofa"),
+      img("/images/projetos/js-carne-pure.jpg", "Carne grelhada com purê, vagem e legumes assados"),
+      img("/images/projetos/js-crumble-beterraba.jpg", "Crumble com compota de beterraba e pétala de rosa"),
+      img("/images/projetos/js-salada-mousse.jpg", "Salada de folhas com mousse e flor em tigela artesanal"),
+      img("/images/projetos/js-sobremesa.jpg", "Sobremesa empratada com calda e crocante de gergelim"),
+      img("/images/projetos/js-ambiente.jpg", "Jantar sazonal servido em ambiente intimista à noite"),
     ],
   },
   {
@@ -39,13 +47,15 @@ export const projects: Project[] = [
     title: "Casamentos & celebrações",
     description:
       "Menus desenvolvidos de acordo com história, tema e perfil dos anfitriões.",
-    coverImage: "/images/IMG-20260918-WA0086.jpg",
+    coverImage: "/images/projetos/evt-bolo-rosa.jpg",
     images: [
+      img("/images/projetos/evt-bolo-rosa.jpg", "Bolo de festa com cobertura rosa, frutas e flor comestível"),
+      img("/images/IMG-20260918-WA0085.jpg", "Bolo de chocolate decorado sobre pétalas"),
+      img("/images/projetos/evt-millefeuille.jpg", "Mil-folhas com pistache empratado"),
+      img("/images/projetos/evt-mousse-coco.jpg", "Mousses individuais finalizadas com coco"),
       img("/images/IMG-20260918-WA0086.jpg", "Bandeja de docinhos de festa"),
-      img("/images/IMG-20260918-WA0085.jpg", "Bolo de chocolate decorado com flores"),
       img("/images/IMG-20260918-WA0088.jpg", "Fatia de torta de chocolate empratada"),
       img("/images/IMG-20260918-WA0089.jpg", "Mesa de celebração com bolos, pães e focaccia"),
-      img("/images/IMG-20260918-WA0090.jpg", "Mesa de buffet com salada e petiscos"),
       img("/images/IMG-20260516-WA0028.jpg", "Sobremesa de banana com farofa doce empratada"),
     ],
   },
@@ -55,17 +65,16 @@ export const projects: Project[] = [
     title: "Retiros",
     description:
       "Experiência gastronômica integrada a práticas de yoga, conexão com o eixo mente-corpo e prática de esportes.",
-    coverImage: "/images/_MG_2598.JPG",
+    coverImage: "/images/_MG_2550.JPG",
     images: [
-      img("/images/_MG_2598.JPG", "Tigela de granola e iogurte servida ao ar livre"),
-      img("/images/IMG-20260918-WA0087.jpg", "Tigelas de iogurte e granola em mesa comunitária"),
-      img("/images/_MG_2564.JPG", "Bowl de frutas rosado"),
-      img("/images/_MG_2576.JPG", "Tigela de granola com iogurte e frutas"),
-      img("/images/_MG_2593 (1).JPG", "Bowl de granola com frutas vermelhas"),
-      img("/images/_MG_2600 (1).JPG", "Tigela de café da manhã servida em prato dourado"),
-      img("/images/_MG_2612 (1).JPG", "Bowl de granola segurado ao ar livre"),
+      img("/images/_MG_2550.JPG", "Tigela de granola e iogurte com folha de palmeira"),
+      img("/images/_MG_2598.JPG", "Bowl de granola com frutas segurado ao ar livre"),
+      img("/images/_MG_2612 (1).JPG", "Bowl de granola em luz filtrada entre plantas"),
+      img("/images/_MG_2593 (1).JPG", "Bowl de granola com frutas vermelhas e coco"),
+      img("/images/projetos/ret-fernanda-servindo.jpg", "Fernanda finalizando as bebidas do café da manhã do retiro"),
+      img("/images/projetos/ret-frutas.jpg", "Tábua de frutas frescas para o café comunitário"),
       img("/images/_MG_4498.jpg", "Bowl de granola com banana e morango"),
-      img("/images/_MG_2720 (1).JPG", "Pudim de chia em taça"),
+      img("/images/_MG_2595 (2).JPG", "Bowl de granola servido em prato dourado"),
     ],
   },
   {
@@ -74,16 +83,16 @@ export const projects: Project[] = [
     title: "Desenvolvimento de produtos",
     description:
       "Criação e aprimoramento de produtos para marcas e produtores de alimentos.",
-    coverImage: "/images/_MG_4520.JPG",
+    coverImage: "/images/_MG_4759.JPG",
     images: [
-      img("/images/_MG_4520.JPG", "Bowl de granola ao lado da embalagem do produto"),
       img("/images/_MG_4759.JPG", "Linha de embalagens de granola artesanal"),
+      img("/images/_MG_4520.JPG", "Bowls de granola ao lado da embalagem Premium"),
       img("/images/_MG_4419.jpg", "Granola servida ao lado da embalagem Premium"),
       img("/images/_MG_4401 (1).JPG", "Granola com embalagens Tradicional e Premium"),
-      img("/images/_MG_4661 (1).JPG", "Granola em tigela ao lado de embalagem"),
       img("/images/_MG_3209 (2).JPG", "Salada com embalagem de granola salgada"),
-      img("/images/_MG_2953.JPG", "Muffins em formas ao lado de chocolate e cenoura"),
-      img("/images/_MG_2832.JPG", "Gotas de chocolate e ovos para desenvolvimento"),
+      img("/images/_MG_4656.JPG", "Fernanda ao lado das embalagens desenvolvidas"),
+      img("/images/projetos/prod-lactofermentados.jpg", "Linha de vegetais orgânicos lactofermentados em conserva"),
+      img("/images/_MG_4661 (1).JPG", "Granola em tigela ao lado de embalagem"),
     ],
   },
   {
@@ -91,17 +100,17 @@ export const projects: Project[] = [
     number: "05",
     title: "Consultoria gastronômica para negócios e restaurantes",
     description:
-      "Desenvolvimento de conceitos, cardápios, fichas técnicas, custos e treinamento.",
+      "Do conceito ao prato: cardápios, fichas técnicas, custos e treinamento de equipe — da criação à operação da cozinha.",
     coverImage: "/images/_MG_7997.JPG",
     images: [
       img("/images/_MG_7997.JPG", "Sanduíche de menu com suco de manga"),
       img("/images/_MG_0341.JPG", "Quesadilla de carne com salada e molho"),
       img("/images/_MG_0654.JPG", "Milanesas e hambúrgueres empratados"),
+      img("/images/_MG_7849.JPG", "Hambúrguer autoral servido na mão"),
       img("/images/_MG_1114.JPG", "Sanduíche prensado cortado ao meio"),
-      img("/images/_MG_0760.JPG", "Sanduíche prensado com banana"),
       img("/images/_MG_8012.JPG", "Crepe recheado com salada"),
-      img("/images/_MG_7981.JPG", "Sanduíche club com suco"),
-      img("/images/_MG_9624.jpg", "Finalização de pastéis na cozinha"),
+      img("/images/cases/2manas-cozinha.jpg", "Equipe finalizando pratos na cozinha do cliente"),
+      img("/images/cases/2manas-molhos.jpg", "Desenvolvimento de molhos para o cardápio do cliente"),
     ],
   },
 ]

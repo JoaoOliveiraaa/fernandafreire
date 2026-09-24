@@ -22,7 +22,7 @@ export default function GaleriaLinkPage() {
             alt="Fernanda Freire"
             width={684}
             height={387}
-            className="h-20 md:h-28 w-auto"
+            className="h-24 md:h-32 w-auto"
           />
         </Link>
       </header>

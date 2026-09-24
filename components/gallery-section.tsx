@@ -5,12 +5,14 @@ import Image from "next/image"
 import Link from "next/link"
 import { useState } from "react"
 
+// Recorte editorial e equilibrado: comida em destaque, a Fernanda, o processo e
+// a experiência — sem pratos de clientes de consultoria (esses vivem só no case).
 const galleryImages = [
-  { src: "/images/_MG_7684.JPG", alt: "Pratos de salada autoral com presunto cru e manga", span: "col-span-2 row-span-2" },
-  { src: "/images/_MG_0238.JPG", alt: "Ingredientes brasileiros em tigelas de cerâmica", span: "col-span-1 row-span-1" },
-  { src: "/images/_MG_2564.JPG", alt: "Bowl de frutas", span: "col-span-1 row-span-1" },
-  { src: "/images/_MG_3300.jpg", alt: "Fernanda Freire em seu jardim", span: "col-span-1 row-span-2" },
-  { src: "/images/_MG_1114.JPG", alt: "Sanduíche prensado da cozinha autoral", span: "col-span-2 row-span-1" },
+  { src: "/images/projetos/js-moqueca.jpg", alt: "Moqueca de camarão com legumes e flores comestíveis", span: "col-span-2 row-span-2" },
+  { src: "/images/_MG_2676.JPG", alt: "Castanhas, frutas secas e especiarias em tábua de cerâmica", span: "col-span-1 row-span-1" },
+  { src: "/images/projetos/proc-peixe-tomilho.jpg", alt: "Preparo de peixe fresco com tomilho e limão", span: "col-span-1 row-span-1" },
+  { src: "/images/_MG_3660.jpg", alt: "Fernanda Freire, chef e consultora gastronômica", span: "col-span-1 row-span-2" },
+  { src: "/images/projetos/js-ambiente.jpg", alt: "Experiência de jantar sazonal servida à noite", span: "col-span-2 row-span-1" },
 ]
 
 export function GallerySection() {
@@ -118,7 +120,7 @@ export function GallerySection() {
           className="text-center mt-12"
         >
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/fernandafreirecozinha/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 font-[var(--font-montserrat)] text-xs tracking-[0.2em] text-muted-foreground hover:text-accent transition-colors duration-300"
