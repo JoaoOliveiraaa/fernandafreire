@@ -47,6 +47,10 @@ export function ContactSection() {
         form.reset()
         setStatus("success")
       } else {
+        // FormSubmit responde HTTP 200 mesmo em falha (ex.: formulário ainda não
+        // ativado — é preciso clicar no link "Activate Form" que ele envia por
+        // e-mail no primeiro envio). Logamos o motivo real para não ficar opaco.
+        console.warn("[contato] FormSubmit não confirmou o envio:", json?.message ?? json)
         setStatus("error")
       }
     } catch {
