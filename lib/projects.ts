@@ -53,7 +53,7 @@ export const projects: Project[] = [
       img("/images/projetos/evt-mousse-coco.jpg", "Mousses individuais finalizadas com coco"),
       img("/images/IMG-20260918-WA0088.jpg", "Fatia de torta de chocolate empratada"),
       img("/images/IMG-20260918-WA0089.jpg", "Mesa de celebração com bolos, pães e focaccia"),
-      img("/images/casamento.png", "Copos recheados"), 
+      img("/images/casamentos1.png", "Copos recheados"), 
     ],
   },
   {
