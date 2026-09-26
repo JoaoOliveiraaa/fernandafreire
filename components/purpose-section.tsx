@@ -16,8 +16,8 @@ export function PurposeSection() {
           className="relative min-h-[60vh] lg:min-h-[85vh] order-1"
         >
           <Image
-            src="/images/_MG_2800.JPG"
-            alt="Ingredientes e temperos brasileiros"
+            src="/images/_MG_4394.jpg"
+            alt="Preparo de peixe fresco com tomilho, couve-flor e limão"
             fill
             className="object-cover"
             sizes="(max-width: 1024px) 100vw, 50vw"

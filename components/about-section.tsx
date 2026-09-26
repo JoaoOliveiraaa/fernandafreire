@@ -18,8 +18,8 @@ export function AboutSection() {
           >
             <div className="relative aspect-[4/5] overflow-hidden">
               <Image
-                src="/images/_MG_3300.jpg"
-                alt="Chef Fernanda Freire em seu jardim"
+                src="/images/_MG_3660.jpg"
+                alt="Chef Fernanda Freire"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"

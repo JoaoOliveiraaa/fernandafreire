@@ -28,6 +28,12 @@ const services = [
     title: "Jantares autorais",
     description: "Menus exclusivos para eventos, criados de acordo com ocasião, território, estação e perfil dos convidados.",
   },
+  {
+    number: "05",
+    category: "CONFEITARIA SEM LEITE / SEM AÇÚCAR",
+    title: "Doces com restrição",
+    description: "Bolos para bebês adoçados com frutas, bolos sem leite e sem glúten, e docinhos sem leite à base de frutas secas.",
+  },
 ]
 
 export function ServicesSection() {

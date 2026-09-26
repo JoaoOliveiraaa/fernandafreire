@@ -12,15 +12,15 @@ const categoryMap: Partial<Record<Category, string[]>> = {
     "_mg_2874", "_mg_2903", "_mg_2917", "_mg_2963", "_mg_2981", "_mg_2988",
     "_mg_2997", "_mg_3023", "_mg_3032", "_mg_3096", "_mg_3109", "_mg_3147",
     "_mg_3165", "_mg_3297", "_mg_3300", "_mg_3304", "_mg_3331", "_mg_3335",
-    "_mg_3660", "_mg_3661", "_mg_4432", "_mg_4433", "_mg_4564", "_mg_4656",
-    "img_20260915_104642_450", "herofernanda",
+    "_mg_3660", "_mg_3661", "_mg_3693", "_mg_9192", "_mg_4432", "_mg_4433",
+    "_mg_4564", "_mg_4656", "img_20260915_104642_450", "herofernanda",
   ],
   pratos: [
     "_mg_0341", "_mg_0459", "_mg_0550", "_mg_0581", "_mg_0654", "_mg_0760",
     "_mg_1038", "_mg_1114", "_mg_1262", "_mg_1344", "_mg_3139", "_mg_3157",
-    "_mg_3178", "_mg_3189", "_mg_3225", "_mg_3230", "_mg_7684", "_mg_7687",
-    "_mg_7689", "_mg_7849", "_mg_7886", "_mg_7887", "_mg_7981", "_mg_7997",
-    "_mg_8012", "_mg_9624",
+    "_mg_3178", "_mg_3189", "_mg_3225", "_mg_3230", "_mg_4394", "_mg_7684",
+    "_mg_7687", "_mg_7689", "_mg_7849", "_mg_7886", "_mg_7887", "_mg_7981",
+    "_mg_7997", "_mg_8012", "_mg_9624",
   ],
   retiros: [
     "img-20260918-wa0087", "_mg_2550", "_mg_2564", "_mg_2576", "_mg_2583",
@@ -33,16 +33,19 @@ const categoryMap: Partial<Record<Category, string[]>> = {
   ],
   produtos: [
     "_mg_3209", "_mg_4401", "_mg_4419", "_mg_4439", "_mg_4520", "_mg_4661",
-    "_mg_4759",
+    "_mg_4728", "_mg_4759",
   ],
   eventos: ["img-20260918-wa0086", "img-20260918-wa0089", "img-20260918-wa0090"],
   ingredientes: ["_mg_0182", "_mg_0234", "_mg_0238", "_mg_2676", "_mg_2800", "_mg_2832"],
 }
 
 // Fotos genéricas/legadas que NÃO fazem parte do portfólio real.
+// A segunda linha são fotos que a Fernanda pediu para tirar do site.
 const excluded = new Set([
   "chef-portrait", "consulting", "dessert", "dining-experience",
   "hands-cooking", "hero-dish", "ingredients", "logo",
+  "_mg_7886", "_mg_7981", "img-20260516-wa0028", "_mg_2720", "_mg_2652",
+  "_mg_2564", "_mg_0760", "_mg_3304", "_mg_2917",
 ])
 
 const lookup: Record<string, Category> = {}

@@ -43,6 +43,11 @@ const testimonials = [
     author: "Ricardo Lobo",
     title: "Chef · Cozinha do Lobo",
   },
+  {
+    quote: "Simplesmente é uma experiência única! Com carinho no preparo e na apresentação!",
+    author: "Adriana Mega",
+    title: "Jantar Sazonal",
+  },
 ]
 
 export function TestimonialsSection() {

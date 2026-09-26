@@ -27,7 +27,7 @@ export const projects: Project[] = [
     number: "01",
     title: "Jantar Sazonal — Casa Serena Terra",
     description:
-      "Experiência gastronômica mensal dedicada à cozinha brasileira e à sazonalidade.",
+      "Experiência gastronômica mensal dedicada à cozinha sazonal com temas da gastronomia brasileira e internacional, com ingredientes orgânicos e PANC (plantas alimentícias não convencionais), bem como aqueles que vêm de produtores de queijos, cogumelos e charcutaria locais e artesanais.",
     coverImage: "/images/projetos/js-moqueca.jpg",
     instagram: "https://www.instagram.com/jantar_sazonal/",
     images: [
@@ -39,6 +39,10 @@ export const projects: Project[] = [
       img("/images/projetos/js-salada-mousse.jpg", "Salada de folhas com mousse e flor em tigela artesanal"),
       img("/images/projetos/js-sobremesa.jpg", "Sobremesa empratada com calda e crocante de gergelim"),
       img("/images/projetos/js-ambiente.jpg", "Jantar sazonal servido em ambiente intimista à noite"),
+      img("/images/projetos/js-roll-rosa.jpg", "Rolinho de peixe sobre folhas com gergelim e pétala de rosa"),
+      img("/images/projetos/js-roll-tomate.jpg", "Rolinho de peixe com tomate confitado e flor comestível"),
+      img("/images/projetos/js-bolo-caramelo.jpg", "Bolo cremoso com calda de caramelo e castanhas"),
+      img("/images/projetos/js-banana-crumble.jpg", "Banana caramelizada com crumble e compota"),
     ],
   },
   {
@@ -56,7 +60,6 @@ export const projects: Project[] = [
       img("/images/IMG-20260918-WA0086.jpg", "Bandeja de docinhos de festa"),
       img("/images/IMG-20260918-WA0088.jpg", "Fatia de torta de chocolate empratada"),
       img("/images/IMG-20260918-WA0089.jpg", "Mesa de celebração com bolos, pães e focaccia"),
-      img("/images/IMG-20260516-WA0028.jpg", "Sobremesa de banana com farofa doce empratada"),
     ],
   },
   {
@@ -75,6 +78,8 @@ export const projects: Project[] = [
       img("/images/projetos/ret-frutas.jpg", "Tábua de frutas frescas para o café comunitário"),
       img("/images/_MG_4498.jpg", "Bowl de granola com banana e morango"),
       img("/images/_MG_2595 (2).JPG", "Bowl de granola servido em prato dourado"),
+      img("/images/projetos/ret-fernanda-smoothies.jpg", "Fernanda finalizando as vitaminas do café da manhã do retiro"),
+      img("/images/projetos/ret-smoothies-bandeja.jpg", "Bandeja de vitaminas de frutas servidas no retiro ao ar livre"),
     ],
   },
   {
@@ -83,7 +88,7 @@ export const projects: Project[] = [
     title: "Desenvolvimento de produtos",
     description:
       "Criação e aprimoramento de produtos para marcas e produtores de alimentos.",
-    coverImage: "/images/_MG_4759.JPG",
+    coverImage: "/images/_MG_4728.JPG",
     images: [
       img("/images/_MG_4759.JPG", "Linha de embalagens de granola artesanal"),
       img("/images/_MG_4520.JPG", "Bowls de granola ao lado da embalagem Premium"),
@@ -100,8 +105,8 @@ export const projects: Project[] = [
     number: "05",
     title: "Consultoria gastronômica para negócios e restaurantes",
     description:
-      "Do conceito ao prato: cardápios, fichas técnicas, custos e treinamento de equipe — da criação à operação da cozinha.",
-    coverImage: "/images/_MG_7997.JPG",
+      "Do conceito ao prato: criação do conceito do negócio, adequação de cardápio para inclusão de alimentos para as intolerantes (glúten, leite), cardápios, fichas técnicas, custos de operações CMV, treinamento de equipe — da criação à operação da cozinha.",
+    coverImage: "/images/_MG_0550.JPG",
     images: [
       img("/images/_MG_7997.JPG", "Sanduíche de menu com suco de manga"),
       img("/images/_MG_0341.JPG", "Quesadilla de carne com salada e molho"),
@@ -109,7 +114,7 @@ export const projects: Project[] = [
       img("/images/_MG_7849.JPG", "Hambúrguer autoral servido na mão"),
       img("/images/_MG_1114.JPG", "Sanduíche prensado cortado ao meio"),
       img("/images/_MG_8012.JPG", "Crepe recheado com salada"),
-      img("/images/cases/2manas-cozinha.jpg", "Equipe finalizando pratos na cozinha do cliente"),
+      img("/images/projetos/cons-treinamento-equipe.jpg", "Fernanda em treinamento de equipe na cozinha do cliente"),
       img("/images/cases/2manas-molhos.jpg", "Desenvolvimento de molhos para o cardápio do cliente"),
     ],
   },

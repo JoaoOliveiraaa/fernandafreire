@@ -11,7 +11,7 @@ const galleryImages = [
   { src: "/images/projetos/js-moqueca.jpg", alt: "Moqueca de camarão com legumes e flores comestíveis", span: "col-span-2 row-span-2" },
   { src: "/images/_MG_2676.JPG", alt: "Castanhas, frutas secas e especiarias em tábua de cerâmica", span: "col-span-1 row-span-1" },
   { src: "/images/projetos/proc-peixe-tomilho.jpg", alt: "Preparo de peixe fresco com tomilho e limão", span: "col-span-1 row-span-1" },
-  { src: "/images/_MG_3660.jpg", alt: "Fernanda Freire, chef e consultora gastronômica", span: "col-span-1 row-span-2" },
+  { src: "/images/_MG_3139.JPG", alt: "Prato de frango grelhado com salada e cenouras assadas sendo servido", span: "col-span-1 row-span-2" },
   { src: "/images/projetos/js-ambiente.jpg", alt: "Experiência de jantar sazonal servida à noite", span: "col-span-2 row-span-1" },
 ]
 

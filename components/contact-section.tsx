@@ -15,6 +15,7 @@ const projectOptions = [
   "Consultoria gastronômica",
   "Desenvolvimento de produto",
   "Desenvolvimento de menu",
+  'Confeitaria sem leite /sem açúcar',
   "Outro",
 ]
 

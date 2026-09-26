@@ -36,12 +36,29 @@ export function ConsultingSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="text-primary-foreground/80 leading-relaxed mb-10 max-w-lg"
+              className="text-primary-foreground/80 leading-relaxed mb-8 max-w-lg"
             >
               Trabalho com restaurantes e marcas de alimentação no desenvolvimento de
               conceitos e cardápios com identidade. Da concepção do cardápio à execução
               operacional, ofereço uma visão completa para elevar seu negócio ao próximo nível.
             </motion.p>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.25 }}
+              className="mb-10 max-w-lg border-l-2 border-accent bg-primary-foreground/5 pl-6 py-5"
+            >
+              <p className="font-[var(--font-montserrat)] text-xs tracking-[0.3em] text-accent mb-3">
+                MINHA ESPECIALIDADE
+              </p>
+              <p className="text-lg md:text-xl font-light leading-snug text-balance">
+                Adapto o cardápio do seu negócio para incluir opções{" "}
+                <span className="italic">sem glúten, sem leite e sem açúcar</span> — sem
+                abrir mão de sabor nem de identidade.
+              </p>
+            </motion.div>
 
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -96,7 +113,7 @@ export function ConsultingSection() {
               className="absolute -bottom-6 -left-6 bg-card text-card-foreground p-8 max-w-xs"
             >
               <p className="text-lg font-light italic leading-relaxed">
-                {'"'}A gastronomia é a arte de transformar produtos em emoções.{'"'}
+                {'"'}A gastronomia é arte porque ela não representa apenas um prato bonito visualmente, mas porque também é capaz de gerar emoções.{'"'}
               </p>
             </motion.div>
           </motion.div>
