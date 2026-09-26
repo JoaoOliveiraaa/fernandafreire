@@ -47,10 +47,8 @@ export const projects: Project[] = [
     title: "Casamentos & celebrações",
     description:
       "Menus desenvolvidos de acordo com história, tema e perfil dos anfitriões.",
-    coverImage: "/images/projetos/evt-bolo-rosa.jpg",
+    coverImage: "/images/projetos/evt-millefeuille.jpg",
     images: [
-      img("/images/projetos/evt-bolo-rosa.jpg", "Bolo de festa com cobertura rosa, frutas e flor comestível"),
-      img("/images/IMG-20260918-WA0085.jpg", "Bolo de chocolate decorado sobre pétalas"),
       img("/images/projetos/evt-millefeuille.jpg", "Mil-folhas com pistache empratado"),
       img("/images/projetos/evt-mousse-coco.jpg", "Mousses individuais finalizadas com coco"),
       img("/images/IMG-20260918-WA0086.jpg", "Bandeja de docinhos de festa"),
@@ -147,6 +145,8 @@ export const projects: Project[] = [
       img("/images/projetos/cf-brownie.jpg", "Brownie sem açúcar refinado com nibs de cacau e sementes"),
       img("/images/projetos/cf-brownie2.jpg", "Brownies funcionais empratados com cacau e nibs"),
       img("/images/projetos/cf-cookies.jpg", "Cookies integrais de aveia e cacau sem açúcar refinado"),
+      img("/images/projetos/cf-bolo-frutas.jpg", "Bolo gelado natural coberto com frutas vermelhas, cerejas e flores comestíveis"),
+      img("/images/projetos/cf-bolo-chocolate.jpg", "Bolo de chocolate com ganache e nibs de cacau"),
     ],
   },
 ]
