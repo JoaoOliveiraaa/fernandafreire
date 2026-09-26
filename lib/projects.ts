@@ -38,11 +38,7 @@ export const projects: Project[] = [
       img("/images/projetos/js-crumble-beterraba.jpg", "Crumble com compota de beterraba e pétala de rosa"),
       img("/images/projetos/js-salada-mousse.jpg", "Salada de folhas com mousse e flor em tigela artesanal"),
       img("/images/projetos/js-sobremesa.jpg", "Sobremesa empratada com calda e crocante de gergelim"),
-      img("/images/projetos/js-ambiente.jpg", "Jantar sazonal servido em ambiente intimista à noite"),
-      img("/images/projetos/js-roll-rosa.jpg", "Rolinho de peixe sobre folhas com gergelim e pétala de rosa"),
-      img("/images/projetos/js-roll-tomate.jpg", "Rolinho de peixe com tomate confitado e flor comestível"),
-      img("/images/projetos/js-bolo-caramelo.jpg", "Bolo cremoso com calda de caramelo e castanhas"),
-      img("/images/projetos/js-banana-crumble.jpg", "Banana caramelizada com crumble e compota"),
+      img("/images/projetos/js-ambiente.jpg", "Jantar sazonal servido em ambiente intimista à noite"),     
     ],
   },
   {
