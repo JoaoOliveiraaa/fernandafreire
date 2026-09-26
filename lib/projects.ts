@@ -114,6 +114,41 @@ export const projects: Project[] = [
       img("/images/cases/2manas-molhos.jpg", "Desenvolvimento de molhos para o cardápio do cliente"),
     ],
   },
+  {
+    slug: "coffee-breaks-corporativos",
+    number: "06",
+    title: "Coffee breaks corporativos",
+    description:
+      "Coffee breaks completos para empresas, treinamentos e reuniões: bolos, focaccias, pães de queijo, patês, granolas e frutas, com bebidas e opções sem glúten e sem lactose sob demanda — montados com estética e cuidado no ponto do evento.",
+    coverImage: "/images/projetos/cb-estacao.jpg",
+    images: [
+      img("/images/projetos/cb-estacao.jpg", "Estação de coffee break montada com café, bolos, granolas e frutas"),
+      img("/images/projetos/cb-mesa-completa.jpg", "Mesa de coffee break corporativo com bolos, pão de queijo, frutas e sucos"),
+      img("/images/projetos/cb-focaccia.jpg", "Focaccia artesanal com tomate e pesto servida em coffee break"),
+      img("/images/projetos/cb-spread-doces.jpg", "Bolos, focaccia e pão de queijo dispostos em pratos e boleiras"),
+      img("/images/projetos/cb-pao-de-queijo.jpg", "Bolo de coco, pão de queijo e docinhos sobre folha de costela-de-adão"),
+      img("/images/projetos/cb-pate-torradas.jpg", "Patê cremoso com torradas de pão artesanal e pão de queijo"),
+      img("/images/projetos/cb-crumble-coco.jpg", "Sobremesa de coco com farofa doce servida em coffee break"),
+      img("/images/projetos/cb-spread2.jpg", "Variedade de bolos, focaccia e pão de queijo em bancada de evento"),
+    ],
+  },
+  {
+    slug: "confeitaria-sem-leite-sem-acucar",
+    number: "07",
+    title: "Confeitaria sem leite & sem açúcar",
+    description:
+      "Doces com restrição, sem abrir mão do sabor: bolos para bebês adoçados só com frutas, bolos sem leite e sem glúten, brownies funcionais e docinhos à base de frutas secas — finalizados com frutas, nibs de cacau e flores comestíveis.",
+    coverImage: "/images/projetos/cf-torta-frutas.jpg",
+    images: [
+      img("/images/projetos/cf-torta-frutas.jpg", "Torta gelada sem açúcar decorada com goji, blueberries, nibs de cacau e flores comestíveis"),
+      img("/images/projetos/cf-torta-topo.jpg", "Torta natural adoçada com frutas vista de cima sobre madeira rústica"),
+      img("/images/projetos/cf-bolo-ganache.jpg", "Bolo de chocolate com ganache sem leite e flor comestível"),
+      img("/images/projetos/cf-bolo-ganache2.jpg", "Bolo de chocolate sem leite finalizado com nibs de cacau e flor"),
+      img("/images/projetos/cf-brownie.jpg", "Brownie sem açúcar refinado com nibs de cacau e sementes"),
+      img("/images/projetos/cf-brownie2.jpg", "Brownies funcionais empratados com cacau e nibs"),
+      img("/images/projetos/cf-cookies.jpg", "Cookies integrais de aveia e cacau sem açúcar refinado"),
+    ],
+  },
 ]
 
 export function getProject(slug: string): Project | undefined {

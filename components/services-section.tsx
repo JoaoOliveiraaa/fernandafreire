@@ -34,6 +34,12 @@ const services = [
     title: "Doces com restrição",
     description: "Bolos para bebês adoçados com frutas, bolos sem leite e sem glúten, e docinhos sem leite à base de frutas secas.",
   },
+  {
+    number: "06",
+    category: "COFFEE BREAKS CORPORATIVOS",
+    title: "Coffee breaks & eventos corporativos",
+    description: "Coffee breaks completos para empresas, treinamentos e reuniões — pães, salgados, doces e bebidas, com opções sem glúten e sem lactose sob demanda.",
+  },
 ]
 
 export function ServicesSection() {
