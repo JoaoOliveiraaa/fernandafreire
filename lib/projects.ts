@@ -47,11 +47,10 @@ export const projects: Project[] = [
     title: "Casamentos & celebrações",
     description:
       "Menus desenvolvidos de acordo com história, tema e perfil dos anfitriões.",
-    coverImage: "/images/IMG-20260918-WA0086.jpg",
+    coverImage: "/images/projetos/evt-mousse-coco.jpg",
     images: [
       img("/images/projetos/evt-millefeuille.jpg", "Mil-folhas com pistache empratado"),
       img("/images/projetos/evt-mousse-coco.jpg", "Mousses individuais finalizadas com coco"),
-      img("/images/IMG-20260918-WA0086.jpg", "Bandeja de docinhos de festa"),
       img("/images/IMG-20260918-WA0088.jpg", "Fatia de torta de chocolate empratada"),
       img("/images/IMG-20260918-WA0089.jpg", "Mesa de celebração com bolos, pães e focaccia"),
     ],
@@ -147,6 +146,7 @@ export const projects: Project[] = [
       img("/images/projetos/cf-cookies.jpg", "Cookies integrais de aveia e cacau sem açúcar refinado"),
       img("/images/projetos/cf-bolo-frutas.jpg", "Bolo gelado natural coberto com frutas vermelhas, cerejas e flores comestíveis"),
       img("/images/projetos/cf-bolo-chocolate.jpg", "Bolo de chocolate com ganache e nibs de cacau"),
+      img("/images/IMG-20260918-WA0086.jpg", "Bandeja de docinhos de festa"),
     ],
   },
 ]
