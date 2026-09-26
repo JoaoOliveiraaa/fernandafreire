@@ -47,7 +47,7 @@ export const projects: Project[] = [
     title: "Casamentos & celebrações",
     description:
       "Menus desenvolvidos de acordo com história, tema e perfil dos anfitriões.",
-    coverImage: "/images/projetos/evt-millefeuille.jpg",
+    coverImage: "/images/IMG-20260918-WA0086.jpg",
     images: [
       img("/images/projetos/evt-millefeuille.jpg", "Mil-folhas com pistache empratado"),
       img("/images/projetos/evt-mousse-coco.jpg", "Mousses individuais finalizadas com coco"),

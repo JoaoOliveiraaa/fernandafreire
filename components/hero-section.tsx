@@ -16,9 +16,9 @@ export function HeroSection() {
   ]
 
   return (
-    <section className="relative min-h-screen flex items-end justify-center overflow-hidden">
+    <section className="relative min-h-screen flex items-end justify-center">
       {/* Background Image */}
-      <div className="absolute inset-0">
+      <div className="absolute inset-0 overflow-hidden">
         <Image
           src="/images/herofernanda.jpg"
           alt="Fernanda Freire em seu jardim, com pratos de sua cozinha autoral"
@@ -122,12 +122,12 @@ export function HeroSection() {
       </AnimatePresence>
 
       {/* Hero Content */}
-      <div className="relative z-10 text-center px-6 max-w-5xl mx-auto pb-20 md:pb-28">
+      <div className="relative z-10 text-center px-6 max-w-5xl mx-auto pt-32 md:pt-40 pb-12 md:pb-24">
         <motion.p
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.3 }}
-          className="font-[var(--font-montserrat)] text-[10px] md:text-xs tracking-[0.3em] text-primary-foreground/80 mb-6 leading-relaxed max-w-2xl mx-auto"
+          className="font-[var(--font-montserrat)] text-[10px] md:text-xs tracking-[0.3em] text-primary-foreground/80 mb-4 leading-relaxed max-w-2xl mx-auto"
         >
           CHEF GASTRONOMIA BRASILEIRA · CONSULTORA DE CARDÁPIOS PARA RESTAURANTES
         </motion.p>
@@ -136,7 +136,7 @@ export function HeroSection() {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.5 }}
-          className="text-5xl md:text-7xl lg:text-8xl font-light text-primary-foreground tracking-tight leading-[0.95] mb-5"
+          className="text-5xl md:text-6xl lg:text-7xl font-light text-primary-foreground tracking-tight leading-[0.95] mb-4"
         >
           <span className="block">Fernanda</span>
           <span className="block italic font-normal">Freire</span>
@@ -146,7 +146,7 @@ export function HeroSection() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.7 }}
-          className="font-[var(--font-montserrat)] text-sm md:text-base tracking-[0.25em] text-primary-foreground/90 mb-8"
+          className="font-[var(--font-montserrat)] text-sm md:text-base tracking-[0.25em] text-primary-foreground/90 mb-5"
         >
           CHEF & CONSULTORA GASTRONÔMICA
         </motion.p>
@@ -155,7 +155,7 @@ export function HeroSection() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.9 }}
-          className="text-xl md:text-2xl text-primary-foreground/90 font-light italic max-w-2xl mx-auto leading-relaxed mb-6"
+          className="text-lg md:text-2xl text-primary-foreground/90 font-light italic max-w-2xl mx-auto leading-relaxed mb-5"
         >
           Cozinha autoral brasileira para experiências, eventos e projetos de alimentação.
         </motion.p>
@@ -164,7 +164,7 @@ export function HeroSection() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 1 }}
-          className="text-sm md:text-base text-primary-foreground/75 font-light max-w-xl mx-auto leading-relaxed"
+          className="hidden sm:block text-sm md:text-base text-primary-foreground/75 font-light max-w-xl mx-auto leading-relaxed"
         >
           Criação de experiências gastronômicas, menus e produtos para eventos,
           marcas e projetos que valorizam ingredientes, identidade e uma cozinha
@@ -175,7 +175,7 @@ export function HeroSection() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 1.1 }}
-          className="mt-12"
+          className="mt-8 md:mt-12"
         >
           <a
             href="#contato"
