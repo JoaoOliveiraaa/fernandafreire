@@ -4,6 +4,7 @@
 export type Category =
   | "chef"
   | "pratos"
+  | "jantar"
   | "retiros"
   | "doces"
   | "produtos"
@@ -14,6 +15,7 @@ export type Category =
 export const categoryLabels: Record<Category, string> = {
   chef: "Chef",
   pratos: "Pratos",
+  jantar: "Jantar Sazonal",
   retiros: "Retiros",
   doces: "Doces",
   produtos: "Produtos",
@@ -26,6 +28,7 @@ export const categoryLabels: Record<Category, string> = {
 export const categoryOrder: Category[] = [
   "chef",
   "pratos",
+  "jantar",
   "retiros",
   "doces",
   "produtos",
