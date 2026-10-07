@@ -12,33 +12,33 @@ const services = [
   },
   {
     number: "02",
+    category: "COFFEE BREAKS",
+    title: "Coffee breaks & eventos",
+    description: "Coffee breaks completos para empresas, treinamentos e reuniões — pães, salgados, doces e bebidas, com opções sem glúten e sem lactose sob demanda.",
+  },
+  {
+    number: "03",
     category: "CRIAÇÃO & DESENVOLVIMENTO",
     title: "Menus, produtos & conceitos",
     description: "Desenvolvimento de cardápios, produtos alimentícios e conceitos gastronômicos para marcas, restaurantes e produtores.",
   },
   {
-    number: "03",
+    number: "04",
     category: "CONSULTORIA GASTRONÔMICA",
     title: "Estratégia + cozinha + operação",
     description: "Da ideia ao prato: conceito, desenvolvimento, fichas técnicas, custos, testes, treinamento e implantação.",
   },
   {
-    number: "04",
+    number: "05",
     category: "EXPERIÊNCIAS PRIVADAS",
     title: "Jantares autorais",
     description: "Menus exclusivos para eventos, criados de acordo com ocasião, território, estação e perfil dos convidados.",
   },
   {
-    number: "05",
+    number: "06",
     category: "CONFEITARIA SEM LEITE / SEM AÇÚCAR",
     title: "Doces com restrição",
     description: "Bolos para bebês adoçados com frutas, bolos sem leite e sem glúten, e docinhos sem leite à base de frutas secas.",
-  },
-  {
-    number: "06",
-    category: "COFFEE BREAKS CORPORATIVOS",
-    title: "Coffee breaks & eventos corporativos",
-    description: "Coffee breaks completos para empresas, treinamentos e reuniões — pães, salgados, doces e bebidas, com opções sem glúten e sem lactose sob demanda.",
   },
 ]
 

@@ -38,12 +38,30 @@ export const projects: Project[] = [
       img("/images/projetos/js-crumble-beterraba.jpg", "Crumble com compota de beterraba e pétala de rosa"),
       img("/images/projetos/js-salada-mousse.jpg", "Salada de folhas com mousse e flor em tigela artesanal"),
       img("/images/projetos/js-sobremesa.jpg", "Sobremesa empratada com calda e crocante de gergelim"),
-      img("/images/projetos/js-ambiente.jpg", "Jantar sazonal servido em ambiente intimista à noite"),     
+      img("/images/projetos/js-ambiente.jpg", "Jantar sazonal servido em ambiente intimista à noite"),
+    ],
+  },
+  {
+    slug: "coffee-breaks-corporativos",
+    number: "02",
+    title: "Coffee breaks",
+    description:
+      "Coffee breaks completos para empresas, treinamentos e reuniões: bolos, focaccias, pães de queijo, patês, granolas e frutas, com bebidas e opções sem glúten e sem lactose sob demanda — montados com estética e cuidado no ponto do evento.",
+    coverImage: "/images/projetos/cb-spread-doces.jpg",
+    images: [
+      img("/images/projetos/cb-estacao.jpg", "Estação de coffee break montada com café, bolos, granolas e frutas"),
+      img("/images/projetos/cb-mesa-completa.jpg", "Mesa de coffee break corporativo com bolos, pão de queijo, frutas e sucos"),
+      img("/images/projetos/cb-focaccia.jpg", "Focaccia artesanal com tomate e pesto servida em coffee break"),
+      img("/images/projetos/cb-spread-doces.jpg", "Bolos, focaccia e pão de queijo dispostos em pratos e boleiras"),
+      img("/images/projetos/cb-pao-de-queijo.jpg", "Bolo de coco, pão de queijo e docinhos sobre folha de costela-de-adão"),
+      img("/images/projetos/cb-pate-torradas.jpg", "Patê cremoso com torradas de pão artesanal e pão de queijo"),
+      img("/images/projetos/cb-crumble-coco.jpg", "Sobremesa de coco com farofa doce servida em coffee break"),
+      img("/images/projetos/cb-spread2.jpg", "Variedade de bolos, focaccia e pão de queijo em bancada de evento"),
     ],
   },
   {
     slug: "casamentos-celebracoes",
-    number: "02",
+    number: "03",
     title: "Casamentos & celebrações",
     description:
       "Menus desenvolvidos de acordo com história, tema e perfil dos anfitriões.",
@@ -58,10 +76,10 @@ export const projects: Project[] = [
   },
   {
     slug: "retiros",
-    number: "03",
+    number: "04",
     title: "Retiros",
     description:
-      "Experiência gastronômica integrada a práticas de yoga, conexão com o eixo mente-corpo e prática de esportes.",
+      "Cardápio desenvolvido para criar uma experiência gastronômica integrada a práticas de yoga, conexão com o eixo mente-corpo e prática de esportes.",
     coverImage: "/images/_MG_2550.JPG",
     images: [
       img("/images/_MG_2550.JPG", "Tigela de granola e iogurte com folha de palmeira"),
@@ -78,10 +96,10 @@ export const projects: Project[] = [
   },
   {
     slug: "desenvolvimento-de-produtos",
-    number: "04",
+    number: "05",
     title: "Desenvolvimento de produtos",
     description:
-      "Criação e aprimoramento de produtos para marcas e produtores de alimentos.",
+      "Criação de produtos mais saudáveis e aprimoramento de produtos para marcas e produtores de alimentos.",
     coverImage: "/images/_MG_4728.JPG",
     images: [
       img("/images/_MG_4759.JPG", "Linha de embalagens de granola artesanal"),
@@ -96,10 +114,10 @@ export const projects: Project[] = [
   },
   {
     slug: "consultoria-gastronomica",
-    number: "05",
-    title: "Consultoria gastronômica para negócios e restaurantes",
+    number: "06",
+    title: "Consultoria de Cardápio para negócios e restaurantes",
     description:
-      "Do conceito ao prato: criação do conceito do negócio, adequação de cardápio para inclusão de alimentos para as intolerantes (glúten, leite), cardápios, fichas técnicas, custos de operações CMV, treinamento de equipe — da criação à operação da cozinha.",
+      "Do conceito ao prato: criação do conceito do negócio, adequação de cardápio para inclusão de alimentos para intolerâncias (glúten, leite), cardápios, fichas técnicas, custos de operações CMV, treinamento de equipe — da criação à operação da cozinha.",
     coverImage: "/images/_MG_0550.JPG",
     images: [
       img("/images/_MG_7997.JPG", "Sanduíche de menu com suco de manga"),
@@ -113,29 +131,11 @@ export const projects: Project[] = [
     ],
   },
   {
-    slug: "coffee-breaks-corporativos",
-    number: "06",
-    title: "Coffee breaks corporativos",
-    description:
-      "Coffee breaks completos para empresas, treinamentos e reuniões: bolos, focaccias, pães de queijo, patês, granolas e frutas, com bebidas e opções sem glúten e sem lactose sob demanda — montados com estética e cuidado no ponto do evento.",
-    coverImage: "/images/projetos/cb-estacao.jpg",
-    images: [
-      img("/images/projetos/cb-estacao.jpg", "Estação de coffee break montada com café, bolos, granolas e frutas"),
-      img("/images/projetos/cb-mesa-completa.jpg", "Mesa de coffee break corporativo com bolos, pão de queijo, frutas e sucos"),
-      img("/images/projetos/cb-focaccia.jpg", "Focaccia artesanal com tomate e pesto servida em coffee break"),
-      img("/images/projetos/cb-spread-doces.jpg", "Bolos, focaccia e pão de queijo dispostos em pratos e boleiras"),
-      img("/images/projetos/cb-pao-de-queijo.jpg", "Bolo de coco, pão de queijo e docinhos sobre folha de costela-de-adão"),
-      img("/images/projetos/cb-pate-torradas.jpg", "Patê cremoso com torradas de pão artesanal e pão de queijo"),
-      img("/images/projetos/cb-crumble-coco.jpg", "Sobremesa de coco com farofa doce servida em coffee break"),
-      img("/images/projetos/cb-spread2.jpg", "Variedade de bolos, focaccia e pão de queijo em bancada de evento"),
-    ],
-  },
-  {
     slug: "confeitaria-sem-leite-sem-acucar",
     number: "07",
-    title: "Confeitaria sem leite & sem açúcar",
+    title: "Confeitaria inclusiva",
     description:
-      "Doces com restrição, sem abrir mão do sabor: bolos para bebês adoçados só com frutas, bolos sem leite e sem glúten, brownies funcionais e docinhos à base de frutas secas — finalizados com frutas, nibs de cacau e flores comestíveis.",
+      "Bolos e doces para restrições de açúcar e leite, glúten. Bolos para bebês adoçados só com frutas, opções de bolinhos sem glúten macios e unidos, bolinhos sem leite de vaca, doces funcionais e lowcarb.",
     coverImage: "/images/projetos/cf-torta-frutas.jpg",
     images: [
       img("/images/projetos/cf-torta-frutas.jpg", "Torta gelada sem açúcar decorada com goji, blueberries, nibs de cacau e flores comestíveis"),

@@ -74,7 +74,7 @@ export function ProjectsSection() {
                   </p>
                   <Link
                     href={`/projetos/${project.slug}`}
-                    className="inline-flex items-center gap-3 font-[var(--font-montserrat)] text-xs tracking-[0.3em] text-foreground border-b border-accent/40 pb-2 hover:text-accent hover:border-accent transition-colors duration-300"
+                    className="inline-flex items-center gap-3 font-[var(--font-montserrat)] text-xs tracking-[0.3em] text-accent border border-accent/60 px-7 py-3.5 hover:bg-accent hover:text-accent-foreground transition-all duration-300"
                   >
                     VEJA MAIS
                     <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
